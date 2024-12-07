@@ -2,7 +2,7 @@
 Project Objective
 The Bank Loan Analysis Dashboard project aims to provide comprehensive insights into the bank's loan portfolio. By integrating data from MS SQL Server, Excel, and Power BI, this project helps in monitoring key performance indicators (KPIs), understanding trends, and analyzing loan data to make data-driven decisions. The dashboards are designed to assist in assessing the bank's lending performance, borrower profiles, and the health of the loan portfolio.
 
-# Dataset Source
+### Dataset Source
 The dataset used in this project is sourced from a CSV file that contains detailed loan application data. It is imported into MS SQL Server for querying and analysis. The columns included in the dataset are as follows:
 
 id: Unique identifier for each loan record.
@@ -36,13 +36,10 @@ total_payment: Total payment made by the borrower.
 3. Business Problem Solving: Fired SQL queries to solve business problems, analyzing loan performance, trends, and KPIs.
 4. Excel and Power BI Comparison: Compared the results from SQL queries with data in Power BI and Excel for validation and cross-checking.
 5. Dashboard Creation: Connected Power BI to MS SQL Server and created three distinct dashboards:
+Bank Loan Report - Summary, Bank Loan Report - Overview, Bank Loan Report - Detail
 
-1.Bank Loan Report | Summary
-2.Bank Loan Report | Overview
-3.Bank Loan Report | Detail
-
-## Dashboards
-# Dashboard 1: Bank Loan Report | Summary
+### Dashboards
+#### Dashboard 1: Bank Loan Report | Summary
 Key Performance Indicators (KPIs):
 Total Loan Applications: Displays the total number of loan applications, along with Month-to-Date (MTD) and Month-over-Month (MoM) comparisons. 
 Total Funded Amount: Visualizes the total loan amount funded, with MTD and MoM analysis.
@@ -55,7 +52,7 @@ Good and Bad Loan Percentages
 Loan Status Grid View:
 Provides an overview of metrics categorized by loan status, including loan applications, funded amounts, received amounts, MTD analysis, interest rates, and DTI.
 
-# Dashboard 2: Bank Loan Report | Overview
+#### Dashboard 2: Bank Loan Report | Overview
 Charts:
 Monthly Trends by Issue Date (Line Chart): Identifies seasonality and long-term trends in lending.
 Regional Analysis by State (Filled Map): Displays regional lending activity and identifies disparities.
@@ -66,12 +63,12 @@ Home Ownership Analysis (Tree Map): Displays the relationship between home owner
 Metrics:
 Total Loan Applications, Total Funded Amount, Total Amount Received
 
-# Dashboard 3: Bank Loan Report | Details
+#### Dashboard 3: Bank Loan Report | Details
 
 To provide a comprehensive and user-friendly view of all critical loan data, including borrower profiles and loan performance metrics.
 Acts as a one-stop solution for detailed loan analysis and performance monitoring.
 
-# Insights :
+#### Insights :
 
 
 # Action Items: 
