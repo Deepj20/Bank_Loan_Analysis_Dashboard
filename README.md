@@ -44,7 +44,7 @@ total_payment: Total payment made by the borrower.
 # Dashboards
 # Dashboard 1: Bank Loan Report | Summary
 Key Performance Indicators (KPIs):
-Total Loan Applications: Displays the total number of loan applications, along with Month-to-Date (MTD) and Month-over-Month (MoM) comparisons.
+Total Loan Applications: Displays the total number of loan applications, along with Month-to-Date (MTD) and Month-over-Month (MoM) comparisons. 
 Total Funded Amount: Visualizes the total loan amount funded, with MTD and MoM analysis.
 Total Amount Received: Tracks loan repayments and their changes over time (MTD and MoM).
 Average Interest Rate: Shows the average interest rate across all loans, MTD, and MoM variations.
