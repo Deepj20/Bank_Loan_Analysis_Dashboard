@@ -37,11 +37,11 @@ total_payment: Total payment made by the borrower.
 4. Excel and Power BI Comparison: Compared the results from SQL queries with data in Power BI and Excel for validation and cross-checking.
 5. Dashboard Creation: Connected Power BI to MS SQL Server and created three distinct dashboards:
 
-# Bank Loan Report | Summary
-# Bank Loan Report | Overview
-# Bank Loan Report | Detail
+1.Bank Loan Report | Summary
+2.Bank Loan Report | Overview
+3.Bank Loan Report | Detail
 
-# Dashboards
+## Dashboards
 # Dashboard 1: Bank Loan Report | Summary
 Key Performance Indicators (KPIs):
 Total Loan Applications: Displays the total number of loan applications, along with Month-to-Date (MTD) and Month-over-Month (MoM) comparisons. 
