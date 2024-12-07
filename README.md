@@ -1,5 +1,5 @@
 # Bank_Loan_Analysis_Dashboard
-Project Objective
+### Project Objective
 The Bank Loan Analysis Dashboard project aims to provide comprehensive insights into the bank's loan portfolio. By integrating data from MS SQL Server, Excel, and Power BI, this project helps in monitoring key performance indicators (KPIs), understanding trends, and analyzing loan data to make data-driven decisions. The dashboards are designed to assist in assessing the bank's lending performance, borrower profiles, and the health of the loan portfolio.
 
 ### Dataset Source
@@ -30,7 +30,7 @@ loan_amount: Total loan amount.
 total_acc: Total number of credit accounts the borrower has.
 total_payment: Total payment made by the borrower.
 
-# Steps
+### Steps
 1. Data Import: Imported CSV data into MS SQL Server and created a database for storing and managing the data.
 2. Query Writing: Developed SQL queries to retrieve, filter, and aggregate data for analysis.
 3. Business Problem Solving: Fired SQL queries to solve business problems, analyzing loan performance, trends, and KPIs.
@@ -71,7 +71,7 @@ Acts as a one-stop solution for detailed loan analysis and performance monitorin
 #### Insights :
 
 
-# Action Items: 
+### Action Items: 
 1. Regularly update the loan data in the MS SQL database for the most current insights.
 2. Continuously monitor the KPIs and trends to assess lending performance and adjust strategies accordingly.
 3. Use the insights from the dashboards to make data-driven decisions for improving loan processes, targeting high-performing regions, and evaluating borrower profiles.
