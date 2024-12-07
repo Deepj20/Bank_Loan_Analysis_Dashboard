@@ -2,7 +2,7 @@
 Project Objective
 The Bank Loan Analysis Dashboard project aims to provide comprehensive insights into the bank's loan portfolio. By integrating data from MS SQL Server, Excel, and Power BI, this project helps in monitoring key performance indicators (KPIs), understanding trends, and analyzing loan data to make data-driven decisions. The dashboards are designed to assist in assessing the bank's lending performance, borrower profiles, and the health of the loan portfolio.
 
-Dataset Source
+# Dataset Source
 The dataset used in this project is sourced from a CSV file that contains detailed loan application data. It is imported into MS SQL Server for querying and analysis. The columns included in the dataset are as follows:
 
 id: Unique identifier for each loan record.
@@ -30,20 +30,20 @@ loan_amount: Total loan amount.
 total_acc: Total number of credit accounts the borrower has.
 total_payment: Total payment made by the borrower.
 
-Steps
-Data Import: Imported CSV data into MS SQL Server and created a database for storing and managing the data.
-Query Writing: Developed SQL queries to retrieve, filter, and aggregate data for analysis.
-Business Problem Solving: Fired SQL queries to solve business problems, analyzing loan performance, trends, and KPIs.
-Excel and Power BI Comparison: Compared the results from SQL queries with data in Power BI and Excel for validation and cross-checking.
-Dashboard Creation: Connected Power BI to MS SQL Server and created three distinct dashboards:
-Bank Loan Report | Summary
-Bank Loan Report | Overview
-Bank Loan Report | Detail
+# Steps
+1. Data Import: Imported CSV data into MS SQL Server and created a database for storing and managing the data.
+2. Query Writing: Developed SQL queries to retrieve, filter, and aggregate data for analysis.
+3. Business Problem Solving: Fired SQL queries to solve business problems, analyzing loan performance, trends, and KPIs.
+4. Excel and Power BI Comparison: Compared the results from SQL queries with data in Power BI and Excel for validation and cross-checking.
+5. Dashboard Creation: Connected Power BI to MS SQL Server and created three distinct dashboards:
 
-Dashboards
-Dashboard 1: Summary
+# Bank Loan Report | Summary
+# Bank Loan Report | Overview
+# Bank Loan Report | Detail
+
+# Dashboards
+# Dashboard 1: Bank Loan Report | Summary
 Key Performance Indicators (KPIs):
-
 Total Loan Applications: Displays the total number of loan applications, along with Month-to-Date (MTD) and Month-over-Month (MoM) comparisons.
 Total Funded Amount: Visualizes the total loan amount funded, with MTD and MoM analysis.
 Total Amount Received: Tracks loan repayments and their changes over time (MTD and MoM).
@@ -55,9 +55,8 @@ Good and Bad Loan Percentages
 Loan Status Grid View:
 Provides an overview of metrics categorized by loan status, including loan applications, funded amounts, received amounts, MTD analysis, interest rates, and DTI.
 
-Dashboard 2: Overview
+# Dashboard 2: Bank Loan Report | Overview
 Charts:
-
 Monthly Trends by Issue Date (Line Chart): Identifies seasonality and long-term trends in lending.
 Regional Analysis by State (Filled Map): Displays regional lending activity and identifies disparities.
 Loan Term Analysis (Donut Chart): Shows loan distribution by term length.
@@ -67,17 +66,16 @@ Home Ownership Analysis (Tree Map): Displays the relationship between home owner
 Metrics:
 Total Loan Applications, Total Funded Amount, Total Amount Received
 
-Dashboard 3: Details
-Objective:
+# Dashboard 3: Bank Loan Report | Details
 
 To provide a comprehensive and user-friendly view of all critical loan data, including borrower profiles and loan performance metrics.
 Acts as a one-stop solution for detailed loan analysis and performance monitoring.
 
-Insights :
+# Insights :
 
 
-Action Items: 
-Regularly update the loan data in the MS SQL database for the most current insights.
-Continuously monitor the KPIs and trends to assess lending performance and adjust strategies accordingly.
-Use the insights from the dashboards to make data-driven decisions for improving loan processes, targeting high-performing regions, and evaluating borrower profiles.
+# Action Items: 
+1. Regularly update the loan data in the MS SQL database for the most current insights.
+2. Continuously monitor the KPIs and trends to assess lending performance and adjust strategies accordingly.
+3. Use the insights from the dashboards to make data-driven decisions for improving loan processes, targeting high-performing regions, and evaluating borrower profiles.
 
